@@ -1,0 +1,33 @@
+{
+  "name": "deepstream.io-storage-arangodb",
+  "version": "1.0.0",
+  "description": "ArangoDB storage connector for deepstream.io",
+  "main": "src/connector.js",
+  "scripts": {
+    "test": "mocha",
+    "coverage": "istanbul cover node_modules/mocha/bin/_mocha",
+    "lint": "eslint \"src/**/*.js\" \"test/**/*.js\"",
+    "ci": "npm run coverage && npm run lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Brian-McBride/deepstream.io-storage-arangodb.git"
+  },
+  "author": "Brian McBride",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/Brian-McBride/deepstream.io-storage-arangodb/issues"
+  },
+  "homepage": "https://github.com/Brian-McBride",
+  "dependencies": {
+    "arangojs": "^5.6.1"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "coveralls": "^2.13.1",
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb": "^14.1.0",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.4.2"
+  }
+}
