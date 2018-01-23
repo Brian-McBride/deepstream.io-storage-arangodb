@@ -1,5 +1,7 @@
 # deepstream.io-storage-arangodb [![npm version](https://badge.fury.io/js/deepstream.io-storage-arangodb.svg)](http://badge.fury.io/js/deepstream.io-storage-arangodb)
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/Brian-McBride/deepstream.io-storage-arangodb.svg)](https://greenkeeper.io/)
+
 [deepstream](http://deepstream.io) storage connector for [arangodb](https://www.arangodb.com/)
 
 
